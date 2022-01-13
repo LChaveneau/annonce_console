@@ -1,0 +1,20 @@
+SVR:
+  error: 0.04432897040829116
+  mse: 61604.210321905404
+  parametre:
+    C: 1
+    kernel: linear
+LinearRegression:
+  error: 0.1269542261190994
+  mse: 112302.01145522836
+  parametre:
+    copy_X: true
+    fit_intercept: true
+    n_jobs: null
+    normalize: deprecated
+    positive: false
+DecisionTreeRegressor:
+  error: -1.2115170722923045
+  mse: 611815.5732711767
+  parametre:
+    max_depth: 300

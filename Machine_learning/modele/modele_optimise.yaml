@@ -1,0 +1,131 @@
+- modele: SVR
+  parametre:
+    C: 2
+    kernel: linear
+  error: 0.10080197858052918
+  mse: 214044.71372374942
+  mse_tr: 64563.59869101721
+- modele: LinearRegression
+  parametre: null
+  error: 0.1678550410175172
+  mse: 165776.26647276714
+  mse_tr: 168790.35182203655
+- modele: DecisionTreeRegressor
+  parametre:
+    max_depth: 10
+  error: -1.0586230931929144
+  mse: 245531.39544221314
+  mse_tr: 67190.10172507731
+- modele: ARDRegression
+  parametre: null
+  error: 0.13706888814617732
+  mse: 210572.9052371996
+  mse_tr: 40216.23508919796
+- modele: GammaRegressor
+  parametre:
+    alpha: 0.5
+  error: -0.006648336865227826
+  mse: 229779.984743089
+  mse_tr: 49939.24455155276
+- modele: StochasticGradientDescent
+  parametre:
+    alpha: 0.1
+  error: -7.461525480999763e+21
+  mse: 1.0832547410778446e+27
+  mse_tr: 3.2383099846429427e+27
+- modele: KernelRidge
+  parametre: null
+  error: 0.1483332731422887
+  mse: 175014.4474698792
+  mse_tr: 141375.50426942296
+- modele: KNN
+  parametre:
+    n_neighbors: 20
+    weights: uniform
+  error: 0.14689469380069312
+  mse: 103093.34600209398
+  mse_tr: 372119.2954548996
+- modele: GaussianProcessRegressor
+  parametre: null
+  error: -50662.03630797582
+  mse: 6478844607.278491
+  mse_tr: 4323189150.219023
+- modele: PLSRegression
+  parametre:
+    n_components: 1
+  error: 0.16598857737273098
+  mse: 198021.75501151005
+  mse_tr: 80912.73322093548
+- modele: DecisionTreeRegressor
+  parametre:
+    max_depth: 50
+    max_features: 2
+  error: -0.011517443980238351
+  mse: 179470.88307543288
+  mse_tr: 161813.25202386852
+- modele: ExtraTreeRegressor
+  parametre:
+    max_depth: 50
+    max_features: 5
+  error: -0.22120067501189933
+  mse: 158528.2227745864
+  mse_tr: 355452.6621102189
+- modele: PLSCanonical
+  parametre:
+    algorithm: svd
+    n_components: 1
+  error: -2.0185154755490187
+  mse: 373293.6376349013
+  mse_tr: 245301.81335658158
+- modele: RandomForestRegressor
+  parametre:
+    bootstrap: true
+    max_depth: 100
+    max_features: 10
+    max_leaf_nodes: 100
+    min_samples_leaf: 4
+    min_samples_split: 2
+  error: 0.17765995496168094
+  mse: 196267.87424862102
+  mse_tr: 61522.49810642269
+- modele: ExtraTreesRegressor
+  parametre:
+    bootstrap: true
+    max_depth: 100
+    max_features: 20
+    max_leaf_nodes: 100
+    min_samples_leaf: 6
+    min_samples_split: 4
+  error: 0.18807899659503644
+  mse: 185911.84093822274
+  mse_tr: 96283.8661586862
+- modele: MLPRegressor
+  parametre:
+    activation: identity
+    alpha: 0.01
+    solver: lbfgs
+  error: 0.21913545200100598
+  mse: 100946.46868550497
+  mse_tr: 363700.6834173624
+- modele: GradientBoostingRegressor
+  parametre:
+    learning_rate: 0.01
+    max_depth: 10
+    max_features: 30
+    min_samples_leaf: 1
+    min_samples_split: 2
+    n_estimators: 200
+  error: 0.19567463836715054
+  mse: 202795.44641845484
+  mse_tr: 55952.262372078614
+- modele: AdaBoostDecisionTreeRegressor
+  parametre:
+    base_estimator__max_depth: 20
+    base_estimator__max_leaf_nodes: 50
+    base_estimator__min_samples_leaf: 2
+    base_estimator__min_samples_split: 6
+    learning_rate: 0.001
+    n_estimators: 10
+  error: 0.20022221141808888
+  mse: 204286.60378596938
+  mse_tr: 69432.66743913639

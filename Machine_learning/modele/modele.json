@@ -1,0 +1,3 @@
+[{"modele": "SVR", "parametre": {"C": [1], "kernel" : ["linear", "poly", "rbf"]}},
+{"modele": "LinearRegression", "parametre": null}, 
+{"modele": "DecisionTreeRegressor", "parametre": {"max_depth": [10,100,300]}}]

@@ -1,0 +1,16 @@
+"SVR":
+ "parametre":
+      "C": 1 
+      "kernel":
+        "linear" 
+        "poly"
+        "rbf"
+"LinearRegression": 
+  "parametre": 
+    null
+"DecisionTreeRegressor": 
+  "parametre":
+    "max_depth": 
+      10
+      100
+      300

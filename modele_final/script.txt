@@ -1,0 +1,4 @@
+from sklearn.neural_network import MLPRegressor
+import numpy as np
+import pickle
+MODELE = pickle.load(open(r'C:\Users\Lucas\Documents\M2\Python\Projet\version_propre' + r'\modele_final\fitted_modele.sav', 'rb'))

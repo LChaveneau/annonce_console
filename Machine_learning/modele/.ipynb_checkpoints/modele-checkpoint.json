@@ -1,0 +1,2 @@
+[{"modele": "SVR", "parametre": {"C": [1], "kernel" : ["linear", "poly", "rbf"]}},
+{"modele": "LinearRegression", "parametre": null}]

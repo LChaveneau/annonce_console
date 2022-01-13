@@ -1,0 +1,81 @@
+- modele: SVR
+  parametre:
+    C: [0.5,1,2]
+    kernel: [linear, poly, rbf]
+- modele: LinearRegression
+  parametre:
+    null
+- modele: DecisionTreeRegressor
+  parametre:
+    max_depth: [10, 100, 300]
+- modele: ARDRegression
+  parametre:
+    null
+- modele: GammaRegressor
+  parametre:
+    alpha: [0.5, 1, 2]
+- modele: StochasticGradientDescent
+  parametre:
+    alpha: [0.0001, 0.001, 0.01, 0.1]
+- modele: KernelRidge
+  parametre:
+    null
+- modele: KNN
+  parametre:
+    n_neighbors: [1, 5, 10, 20, 50, 75, 100]
+    weights: [uniform, distance]
+- modele: GaussianProcessRegressor
+  parametre:
+    null
+- modele: PLSRegression
+  parametre:
+    n_components: [1, 2, 5, 10, 20, 40, 50]
+- modele: DecisionTreeRegressor
+  parametre:
+    max_depth: [None, 50, 100, 250]
+    max_features: [None, 2, 5]
+- modele: ExtraTreeRegressor
+  parametre:
+    max_depth: [None, 50, 100, 250]
+    max_features: [None, 2, 5]
+- modele: PLSCanonical
+  parametre:
+    n_components: [1, 2, 5, 10]
+    algorithm: [nipals, svd]
+- modele: RandomForestRegressor
+  parametre:
+    max_depth: [None, 100, 250, 500, 900]
+    max_features: [None, 2, 5, 10, 20]
+    bootstrap: [False, True]
+    max_leaf_nodes: [None,10, 25, 50, 100]
+    min_samples_split: [2, 4, 6]
+    min_samples_leaf: [2, 4, 6]
+- modele: ExtraTreesRegressor
+  parametre:
+    max_depth: [None, 100, 250, 500, 900]
+    max_features: [None, 2, 5, 10, 20]
+    bootstrap: [False, True]
+    max_leaf_nodes: [None,10, 25, 50, 100]
+    min_samples_split: [2, 4, 6]
+    min_samples_leaf: [2, 4, 6]
+- modele: MLPRegressor
+  parametre:
+    solver: [lbfgs, sgd, adam]
+    activation : [identity, logistic, tanh, relu]
+    alpha: [0.0001, 0.001, 0.01, 0.1]
+- modele: GradientBoostingRegressor
+  parametre:
+    learning_rate: [0.0001,0.001, 0.01, 0.1]
+    n_estimators: [50, 100, 200, 400]
+    max_depth: [2, 4, 10, 20, 50, 100, 200]
+    min_samples_split: [2, 5, 10]
+    min_samples_leaf: [1, 2, 5, 10]
+    max_features: [None, 2, 5, 7, 10, 30]
+- modele: AdaBoostDecisionTreeRegressor
+  parametre:
+    learning_rate: [0.001, 0.01, 0.1]
+    n_estimators: [10, 50, 100]
+    base_estimator__max_depth: [2, 4, 10, 20, 50, 100, None]
+    base_estimator__max_leaf_nodes: [None, 50]
+    base_estimator__min_samples_split: [2, 4, 6]
+    base_estimator__min_samples_leaf: [2, 4, 6]

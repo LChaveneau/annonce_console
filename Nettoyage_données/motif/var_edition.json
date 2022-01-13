@@ -1,0 +1,17 @@
+[
+    ".*?digital [ée]dition.*?|.*?[ée]dition digital.*?",
+    ".*?standard [ée]dition.*?|.*?[ée]dition standard.*?",
+    ".*?blu.?ray [ée]dition.*?|.*?[ée]dition blu.?ray.*?",
+    ".*?original [ée]dition.*?|.*?[ée]dition original.*?",
+    ".*?originale [ée]dition.*?|.*?[ée]dition originale.*?",
+    ".*?classic [ée]dition.*?|.*?[ée]dition classic.*?",
+    ".*?classique [ée]dition.*?|.*?[ée]dition classique.*?",
+    ".*?1ére.?[ée]dition.*?",
+    ".*?1ère.?[ée]dition.*?",
+    ".*?première.?[ée]dition.*?",
+    ".*?1er.?[ée]dition.*?",
+    ".*?1ere.?[ée]dition.*?",
+    ".*?1e.?[ée]dition.*?",
+    ".*?1st.?[ée]dition.*?",
+    ".*?first.?[ée]dition.*?"
+]
